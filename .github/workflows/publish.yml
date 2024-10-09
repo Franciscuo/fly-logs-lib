@@ -39,14 +39,8 @@ jobs:
     - name: Run build
       run: npm run build
 
-    - name: Install pnpm
-      uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4
-      with:
-        version: 8
-        run_install: true
-
     - name: Release
+      run: npx semantic-release@21.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: pnpm dlx semantic-release

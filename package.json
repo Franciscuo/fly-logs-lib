@@ -42,9 +42,7 @@
     "src/test/"
   ],
   "files": [
-    "dist",
-    "src",
-    "README.md"
+    "dist"
   ],
   "publishConfig": {
     "access": "public"

@@ -4,9 +4,5 @@ module.exports = {
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
     ['@semantic-release/npm', { pkgRoot: 'dist' }],
-    [
-      '@semantic-release/git',
-      { assets: ['package.json', 'npm-shrinkwrap.json'] },
-    ],
   ],
 };

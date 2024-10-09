@@ -2,8 +2,8 @@
   "name": "@fly-co/logs-lib",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "nest build",
     "test": "jest",

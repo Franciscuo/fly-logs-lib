@@ -41,9 +41,6 @@
   "eslintIgnore": [
     "src/test/"
   ],
-  "files": [
-    "dist"
-  ],
   "publishConfig": {
     "access": "public"
   }

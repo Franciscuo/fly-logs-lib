@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "nest build",
     "test": "jest",
@@ -43,5 +40,13 @@
   },
   "eslintIgnore": [
     "src/test/"
-  ]
+  ],
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
